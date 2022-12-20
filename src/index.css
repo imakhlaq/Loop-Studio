@@ -4,3 +4,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap");
+
+#hero {
+  background-image: url(./img/desktop/image-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (max-width: 570px) {
+  #hero {
+    background-image: url(./img/mobile/image-hero.jpg);
+    background-position: center;
+  }
+}
