@@ -1,5 +1,7 @@
 import React from "react";
 import img from "../img/desktop/image-interactive.jpg";
+import gimgdesk1 from "../img/desktop/image-deep-earth.jpg";
+import gimgmob1 from "../img/mobile/image-deep-earth.jpg";
 
 const Features = () => {
   return (
@@ -27,6 +29,36 @@ const Features = () => {
             <button className="hidden border-2 border-black py-2 px-10 font-alata text-xl uppercase tracking-widest hover:bg-black hover:text-white md:block">
               See all
             </button>
+          </div>
+          <div className="mt-6 grid space-y-8 p-2 text-2xl md:grid-cols-3 md:space-x-8 md:space-y-0">
+            {/* fist iteam */}
+            <div className="group relative overflow-hidden ">
+              <img src={gimgmob1} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk1} alt="" className="hidden w-full md:block" />
+              <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
+              <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
+                Nature
+              </h5>
+            </div>
+
+            {/* seond iteam */}
+            <div className="group relative overflow-hidden ">
+              <img src={gimgmob1} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk1} alt="" className="hidden w-full md:block" />
+              <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
+              <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
+                Nature
+              </h5>
+            </div>
+            {/* seond iteam */}
+            <div className="group relative overflow-hidden ">
+              <img src={gimgmob1} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk1} alt="" className="hidden w-full md:block" />
+              <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
+              <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
+                Nature
+              </h5>
+            </div>
           </div>
         </div>
       </section>
