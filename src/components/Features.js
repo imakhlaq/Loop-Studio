@@ -2,6 +2,10 @@ import React from "react";
 import img from "../img/desktop/image-interactive.jpg";
 import gimgdesk1 from "../img/desktop/image-deep-earth.jpg";
 import gimgmob1 from "../img/mobile/image-deep-earth.jpg";
+import gimgdesk2 from "../img/desktop/image-fisheye.jpg";
+import gimgmob2 from "../img/mobile/image-fisheye.jpg";
+import gimgdesk3 from "../img/desktop/image-pocket-borealis.jpg";
+import gimgmob3 from "../img/mobile/image-pocket-borealis.jpg";
 
 const Features = () => {
   return (
@@ -21,8 +25,7 @@ const Features = () => {
             </p>
           </div>
         </div>
-      </section>
-      <section>
+
         <div className="container mx-auto my-32 max-w-6xl px-6 text-gray-900 md:px-0">
           <div className="flex flex-col items-center justify-center md:flex-row md:justify-between ">
             <h2 className="text-4xl font-medium uppercase">Our creation</h2>
@@ -30,7 +33,7 @@ const Features = () => {
               See all
             </button>
           </div>
-          <div className="mt-6 grid space-y-8 p-2 text-2xl md:grid-cols-3 md:space-x-8 md:space-y-0">
+          <div className="mt-7 grid gap-5 text-2xl md:grid-cols-3 ">
             {/* fist iteam */}
             <div className="group relative overflow-hidden ">
               <img src={gimgmob1} alt="" className="w-full md:hidden" />
@@ -40,25 +43,56 @@ const Features = () => {
                 Nature
               </h5>
             </div>
-
-            {/* seond iteam */}
+            {/* fist iteam */}
             <div className="group relative overflow-hidden ">
-              <img src={gimgmob1} alt="" className="w-full md:hidden" />
-              <img src={gimgdesk1} alt="" className="hidden w-full md:block" />
+              <img src={gimgmob2} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk2} alt="" className="hidden w-full md:block" />
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
               <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
                 Nature
               </h5>
             </div>
-            {/* seond iteam */}
+            {/* fist iteam */}
             <div className="group relative overflow-hidden ">
-              <img src={gimgmob1} alt="" className="w-full md:hidden" />
-              <img src={gimgdesk1} alt="" className="hidden w-full md:block" />
+              <img src={gimgmob3} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk3} alt="" className="hidden w-full md:block" />
               <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
               <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
                 Nature
               </h5>
             </div>
+            {/* fist iteam */}
+            <div className="group relative overflow-hidden ">
+              <img src={gimgmob2} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk2} alt="" className="hidden w-full md:block" />
+              <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
+              <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
+                Nature
+              </h5>
+            </div>
+            {/* fist iteam */}
+            <div className="group relative overflow-hidden ">
+              <img src={gimgmob3} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk3} alt="" className="hidden w-full md:block" />
+              <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
+              <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
+                Nature
+              </h5>
+            </div>
+            {/* fist iteam */}
+            <div className="group relative overflow-hidden ">
+              <img src={gimgmob3} alt="" className="w-full md:hidden" />
+              <img src={gimgdesk3} alt="" className="hidden w-full md:block" />
+              <div className="absolute top-0 right-0 bottom-0 left-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-white group-hover:to-gray-50 group-hover:opacity-70 "></div>
+              <h5 className=" absolute bottom-4 w-52 px-6 text-4xl text-gray-400 duration-300 group-hover:scale-110 group-hover:text-black md:bottom-8 md:px-10">
+                Nature
+              </h5>
+            </div>
+          </div>
+          <div className="md:hidden">
+            <button className=" mt-4 w-full border-2 border-black py-2 px-10 font-alata text-xl uppercase tracking-widest hover:bg-black hover:text-white">
+              See all
+            </button>
           </div>
         </div>
       </section>
