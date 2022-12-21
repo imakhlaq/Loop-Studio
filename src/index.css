@@ -16,3 +16,13 @@
     background-position: center;
   }
 }
+
+.open .hamburger-middle {
+  display: none;
+}
+.open .hamburger-top {
+  transform: rotate(130deg);
+}
+.open .hamburger-bottom {
+  transform: rotate(-130deg) translateY(10px) translateX(11px);
+}
