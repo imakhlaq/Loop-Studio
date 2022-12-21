@@ -41,23 +41,28 @@ const Hero = () => {
           <div
             onClick={onNavClick}
             className={`hamburger group relative z-40 flex h-12 w-12 cursor-pointer flex-col items-center transition-all duration-300 hover:-translate-y-1 md:hidden
-            ${!navState && "open"}`}
+            ${navState && "open"}`}
           >
-            <div className="hamburger-top absolute  top-2 w-10 border border-gray-200 group-hover:shadow-lg"></div>
-            <div className="hamburger-middle absolute top-4 w-10 border border-gray-200 group-hover:shadow-lg"></div>
-            <div className="hamburger-bottom absolute top-6 w-10 border border-gray-200 group-hover:shadow-lg"></div>
+            <div className="hamburger-top absolute  top-2 w-10 border border-gray-200 transition-all duration-300 group-hover:shadow-lg"></div>
+            <div className="hamburger-middle absolute top-4 w-10 border border-gray-200 transition-all duration-300 group-hover:shadow-lg"></div>
+            <div className="hamburger-bottom absolute top-6 w-10 border border-gray-200 transition-all duration-300 group-hover:shadow-lg"></div>
           </div>
         </nav>
         {/* hambuerger menu here */}
-        <div id="menu" className={`${navState && "hidden"} md:hidden`}>
-          <div className=" fixed top-0 bottom-0 left-0 -mt-[15rem] flex w-screen flex-col items-center justify-center gap-4 overflow-hidden bg-black text-2xl text-white transition-all duration-300">
-            <a href="dad" className="hover:text-pink-500">
+        <div
+          id="menu"
+          className={`${
+            !navState && "hidden"
+          } transition-all duration-1000 md:hidden`}
+        >
+          <div className=" fixed top-0 bottom-0 left-0 -mt-[15rem] flex w-screen flex-col items-center justify-center gap-4 overflow-hidden bg-black text-2xl text-white transition-all duration-1000">
+            <a href="dad" className="hover:text-pink-500 ">
               About
             </a>
-            <a href="dad" className="hover:text-pink-500">
+            <a href="dad" className=" hover:text-pink-500">
               Careers
             </a>
-            <a href="dad" className="hover:text-pink-500">
+            <a href="dad" className="hover:text-pink-500 ">
               Events
             </a>
             <a href="dad" className="hover:text-pink-500">
