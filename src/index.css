@@ -21,8 +21,10 @@
   display: none;
 }
 .open .hamburger-top {
+  translate: all 0.3s;
   transform: rotate(130deg);
 }
 .open .hamburger-bottom {
+  translate: all 0.3s;
   transform: rotate(-130deg) translateY(10px) translateX(11px);
 }

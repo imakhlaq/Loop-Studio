@@ -50,7 +50,7 @@ const Hero = () => {
         </nav>
         {/* hambuerger menu here */}
         <div id="menu" className={`${navState && "hidden"} md:hidden`}>
-          <div className=" fixed top-0 bottom-0 left-0 -mt-[15rem] flex w-screen flex-col items-center justify-center gap-4 overflow-hidden bg-black text-2xl text-white">
+          <div className=" fixed top-0 bottom-0 left-0 -mt-[15rem] flex w-screen flex-col items-center justify-center gap-4 overflow-hidden bg-black text-2xl text-white transition-all duration-300">
             <a href="dad" className="hover:text-pink-500">
               About
             </a>
